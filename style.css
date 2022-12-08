@@ -1,0 +1,155 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  color: #000;
+  text-transform: uppercase;
+
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background: url("img/header-bg.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.header a {
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  transition: all 0.3s linear;
+}
+
+.menu li a:hover{
+
+  font-size: 16px;
+}
+
+.menu li {
+  margin-right: 40px;
+}
+
+.tel {
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+  transition: all 1s ease;
+}
+
+.tel:hover{
+  text-decoration: underline;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding-top: 57px;
+}
+
+.logo {
+  margin-right: 69px;
+}
+
+.offer {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.offer p {
+  font-size: 30px;
+  margin-top: 229px;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+}
+
+.offer h1 {
+  font-size: 100px;
+  margin-top: -9px;
+  margin-bottom: 19px;
+  margin-left: -4px;
+
+}
+
+.btn {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 10px;
+  border: 1px solid #fff;
+  width: 238px;
+  text-decoration: none;
+  transition: all  0.5s ease;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+section {
+  padding: 113px;
+}
+
+.about h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
+}
+.descr {
+  display: flex;
+  justify-content: space-between;
+}
+.descr p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.62em;
+  text-transform: none;
+  word-spacing: 0.1em;
+}
+
+.descr h3 {
+  margin-bottom: 19px;
+  letter-spacing: 0.01em;
+
+
+}
+
+.left, .right {
+  width: 567px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
